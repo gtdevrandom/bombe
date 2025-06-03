@@ -189,6 +189,7 @@ function handleCommand(command) {
   if (command === 'help') {
     print("📖 Commandes disponibles :");
     print("- status         : temps restant");
+    print("- cut            : coupe le cable");
     print("- list           : liste des câbles restants");
     print("- scan           : scan simplifié (3 phases, résultats décroissants)");
     print("- exit           : quitter le terminal");
